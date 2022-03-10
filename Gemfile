@@ -69,3 +69,7 @@ group :development, :test do
   gem 'rspec-activemodel-mocks', '~> 1.1.0'
   gem 'solidus_dev_support', '~> 2.5'
 end
+
+gem 'solidus_hello_world',
+  github: 'gsmendoza/solidus_hello_world',
+  branch: 'gsmendoza/eng-312-create-a-solidus-extension-for-testing'

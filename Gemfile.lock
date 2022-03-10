@@ -1,3 +1,12 @@
+GIT
+  remote: https://github.com/gsmendoza/solidus_hello_world.git
+  revision: 4f99cf341760d03287de8aefa85d64c7a83a769c
+  branch: gsmendoza/eng-312-create-a-solidus-extension-for-testing
+  specs:
+    solidus_hello_world (0.0.1)
+      solidus_core (>= 2.0.0, < 4)
+      solidus_support (~> 0.5)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -560,6 +569,7 @@ DEPENDENCIES
   solidus_backend (~> 3.1)
   solidus_core (~> 3.1)
   solidus_dev_support (~> 2.5)
+  solidus_hello_world!
   solidus_paypal_commerce_platform
   solidus_sample (~> 3.1)
   solidus_support
