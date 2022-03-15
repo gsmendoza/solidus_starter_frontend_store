@@ -1,6 +1,11 @@
 # frozen_string_literal: true
 
 Spree::Core::Engine.routes.draw do
+  resources :pages, only: :show
+end
+# frozen_string_literal: true
+
+Spree::Core::Engine.routes.draw do
   root to: 'home#index'
 
   devise_for(:spree_user, {
