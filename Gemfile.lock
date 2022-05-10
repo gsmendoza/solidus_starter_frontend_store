@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/gsmendoza/solidus_hello_world.git
-  revision: 4f99cf341760d03287de8aefa85d64c7a83a769c
-  branch: gsmendoza/eng-312-create-a-solidus-extension-for-testing
+  revision: 9ce765df097be101d4e1abdb407349f4c91aa88b
+  branch: main
   specs:
     solidus_hello_world (0.0.1)
       solidus_core (>= 2.0.0, < 4)

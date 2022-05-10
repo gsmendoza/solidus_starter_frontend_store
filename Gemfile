@@ -70,6 +70,4 @@ group :development, :test do
   gem 'solidus_dev_support', '~> 2.5'
 end
 
-gem 'solidus_hello_world',
-  github: 'gsmendoza/solidus_hello_world',
-  branch: 'gsmendoza/eng-312-create-a-solidus-extension-for-testing'
+gem 'solidus_hello_world', github: 'gsmendoza/solidus_hello_world', branch: 'main'
